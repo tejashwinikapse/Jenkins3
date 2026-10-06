@@ -1,6 +1,8 @@
-if num % 2 == 0:
-    print(f"{num} is an Even number.")
-else:
-    print(f"{num} is an Odd number.")
+def evenandodd(num):
+    if num % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+    
 if __name__ == "__main__":
-    print("even and odd", evenodd(23))
+    print("even and odd", evenandodd(23))
